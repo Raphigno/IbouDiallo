@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+    }
+
+body { 
+
+    padding: 0%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(R.jpg) ; 
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+    
+
+}
+  nav ul{ padding: 0%;
+      text-align: right;
+      margin-top: 10px;
+      float: right;
+  }
+ul li{
+    display: inline-block; 
+    margin: 5px;
+    height: 0px;
+    padding: 10px;
+    
+
+}
+
+
+  ul li a {
+      font-family:'Courier New', Courier, monospace,;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 0%;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    letter-spacing: 1px;
+    font-size: 25px;
+    overflow: hidden;
+    transition: 0.2s 
+    margin-left: 40PX 
+
+    
+  }
+  ul li a:hover{  transform: rotate(150°)
+    
+    ; transition: all ;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+}
+ul li.active a{  transform: rotate(150°)
+    
+  ; transition: all ;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #fff;   
+   }
+
+ div h1{
+     padding: 15%;
+      font-size: 65px ;
+      color: #fff;
+      display: block;
+      margin-block-start: 1%;
+      
+  }
+  div h2 p{color: #fff ;
+    font-size: 24PX ;
+  padding: 15%; 
+  text-align: center;
+  }
+  
+.look1{
+  background-image: url(maldives.jpg);
+  background-size: cover;
+  width: 220px;
+  height:300px ;
+}
+.look2{
+  background-image: url(dubai1.jpg);
+  background-size: cover;
+  width: 220px;
+  height:300px ;
+}
+.look3{
+  background-image: url(kyoto1.jpg);
+  background-size: cover;
+  width: 220px;
+  height:300px ;
+ }
+ .look4{
+  background-image: url(dubrovnik2.jpg);
+  background-size: cover; 
+  width: 220px;
+  height:300px ;    
+}
+
+
+.look5{
+  background-image: url(milan.jpg);
+  background-size: cover; 
+  width: 220px;
+  height:300px ;    
+}
+
+ section ul{display: inline-block;
+   margin:30px;
+   padding: 90px;
+ 
+}
+h4{
+  text-shadow: initial;
+  text-align: center;
+  padding-top: 90%;
+  color: #fff;
+}
+h4:hover{
+  transform: rotate(150°);
+  text-align:center;
+  padding-top: 80%;
+}
+       
+                
